@@ -109,7 +109,7 @@ def mark_search_1():
 
                 frame = cv2.flip(frame, 1)
 
-        cv2.imshow("Changing the camera when marking", frame)
+        cv2.imshow("Changing the camera", frame)
 
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
@@ -196,10 +196,10 @@ def mark_search_2():
 
 
 if __name__ == "__main__":
-    # modifieded_image()
+    modifieded_image()
     # mark_search()
     # mark_search_1()
-    mark_search_2()
+    # mark_search_2()
 
 
 cv2.waitKey(0)
